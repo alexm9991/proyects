@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="styles/owlcarousel/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="styles/owlcarousel/owl.theme.default.min.css"
+    />
+    <title>Numeros Romanos</title>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <div class="menu">
+          <nav>
+            <a href="index.html">Alexandra Merchán - Inicio</a>
+            <a href="multiplicacionRusa.html">Multiplicación Rusa</a>
+            <a href="numerosRomanos.html">Números Romanos</a>
+            <a href="numerosLetras1.html">Números a Letras I</a>
+            <a href="numerosLetras2.html">Números a Letras II</a>
+            <a href="cheque.html">Cheque</a>
+            <a href="mejoras.html">Compromisos</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="contenedor">
+        <h4 class="text-center">Números Romanos</h4>
+        <h5 class="text-center">Tiempos</h5>
+        <div class="text-center">
+          <img src="assets/romanos.PNG" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="contenedor">
+        <h5 class="text-center">Ejecución</h5>
+        <div class="owl-carousel owl-theme">
+          <div>
+            <img src="assets/pruebas/nr1.PNG" />
+          </div>
+          <div>
+            <img src="assets/pruebas/nr2.PNG" />
+          </div>
+          <div>
+            <img src="assets/pruebas/nr3.PNG" />
+          </div>
+          <div>
+            <img src="assets/pruebas/nr4.PNG" />
+          </div>
+          <div>
+            <img src="assets/pruebas/nr5.PNG" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="contenedor">
+        <h5 class="text-center">Gráficos</h5>
+        <div class="text-center marginB">
+          <img src="assets/graficos/nr1.PNG" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <div class="wave"></div>
+
+    <footer>
+      <div class="contenedor-footer">
+        <div class="content-foo text-center">
+          <h4 class="titulo-final">Fichas</h4>
+          <p>2450318</p>
+        </div>
+
+        <div class="content-foo text-center">
+          <h4 class="titulo-final">Centro</h4>
+          <p>CEAI</p>
+        </div>
+
+        <div class="content-foo text-center">
+          <h4 class="titulo-final">Programa</h4>
+          <p>ADSI 205</p>
+        </div>
+      </div>
+      <h2 class="titulo-final text-center">&copy; Alex | Alexandra MC</h2>
+    </footer>
+
+    <script src="js/owlcarousel/jquery.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="js/owlcarousel/jquery.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

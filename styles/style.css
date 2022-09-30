@@ -1,0 +1,154 @@
+html {
+    background-image: linear-gradient(
+      to top,
+      #f3e7e9 0%,
+      #e3eeff 99%,
+      #e3eeff 100%
+    );
+  }
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.text-center {
+    text-align: center;
+  }
+
+.titular {
+    margin: 200px 50px;
+  }
+
+.wave {
+    width: 100%;
+    height: 90vw;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    margin-top: -20em;
+    border-radius: 35%;
+    background: rgba(255, 255, 255, 0.75);
+    animation: wave 15s infinite linear;
+    z-index: -2;
+  }
+  
+  @keyframes wave {
+    from {
+      transform: rotate(0deg);
+    }
+    from {
+      transform: rotate(360deg);
+    }
+}
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+  }
+
+.menu {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+nav {
+    display: flex;
+    font-size: 17px;
+    margin: auto;
+    padding: 20px;
+  }
+
+nav a{
+    margin-right: 25px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+  }
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+h4 {
+    font-size: 80px;
+    height: 60px;
+  }
+
+.contenedor h5 {
+    background: #5055df;
+    height: 120px;
+    border-radius: 40px;
+    color: white;
+    font-size: 80px;
+    font-weight: lighter;
+    margin: 50px 0px 100px 0px;
+  }
+
+.marginB {
+  margin-bottom: 45px;
+}
+
+.owl-nav {
+  height: 123px;
+}
+
+span {
+  font-size: 70px;
+  color: #5055df;
+}
+
+.owl-carousel div {
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.owl-carousel img {
+  border-radius: 20px;
+}
+
+.owl-stage-outer {
+  height: 165px;
+}
+
+/* Footer */
+
+.contenedor-footer{
+  display: flex;
+  border:none;
+  justify-content: space-around;
+}
+
+.content-foo{
+  margin-bottom: 20px;
+}
+
+.content-foo h4{
+  border: none;
+}
+
+.content-foo p{
+  color:rgb(168, 116, 116);
+  border-bottom: 1px solid #7e5252;
+  padding-bottom: 20px;
+}
+
+.titulo-final{
+  font-size: 20px;
+}
